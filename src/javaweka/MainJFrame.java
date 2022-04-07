@@ -191,7 +191,7 @@ public class MainJFrame extends javax.swing.JFrame {
     }
 
     private void btnCalcularActionPerformed(java.awt.event.ActionEvent evt) {
-        testeWeka exemplo = new testeWeka("C:/Users/caiol/source/repos/Projetos/JavaWeka/matchups.arff");
+        testeWeka exemplo = new testeWeka("C:/Users/caiol/source/repos/Projetos/JavaWeka/dados.arff");
         try {
             exemplo.leDados();
         } catch (Exception ex) {
@@ -272,5 +272,4 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    // End of variables declaration//GEN-END:variables
 }
